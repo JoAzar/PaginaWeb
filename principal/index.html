@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+        <link rel="stylesheet" href="../styles/style.css">
+        <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.min.css"> <!-- Incluimos el CSS de Bootstrap desde node_modules -->
+        <title>Mi primera pagina</title>
+    </head>
+    <body>
+    
+        <div class="head">
+
+            <div>
+                <img src="../img/header.jpg" class="logo">
+            </div>
+
+            <nav class="navbar">
+                <a href="index.html">Inicio</a>
+                <a href="nosotros.html">Nosotros</a>
+                <a href="contacto.html">Contacto</a>
+                <a href="productos.html">Productos</a>
+                <a href="precio.html">Precio</a>
+            </nav>
+            <div class="alert alert-success" role="alert">
+                ¡Bootstrap está funcionando correctamente!
+              </div>
+
+        </div>
+
+        <header class="content header">
+
+            <h2 class="title">Inicio</h2>
+            <p>
+                Lorem ipsum dolor sit, amet consectetur 
+                adipisicing elit. Consequatur, rerum qui 
+                aliquam voluptates harum illum culpa? 
+                Excepturi nostrum dignissimos deserunt eaque, 
+                consequuntur aut non earum quos laboriosam sit 
+                facere doloribus!
+            </p>
+
+            <div class="btn-home">
+                <a href="nosotros.html" class="btn">Saber mas</a>
+            </div>
+
+        </header>
+
+        <!-- Carrusel de Bootstrap -->
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../img/girlcode.jpg" class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Primer slide</h5>
+                <p>Descripción del primer slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../img/chatgpt.jpg" class="d-block w-100 carousel-image" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                <h5>Segundo slide</h5>
+                <p>Descripción del segundo slide.</p>
+                </div>
+            </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <section class="content sau">
+
+            <h2 class="title">Productos</h2>
+            <p>
+                Lorem ipsum dolor, sit amet consectetur 
+                adipisicing elit. Labore, molestias mollitia, 
+                maxime eligendi iure architecto corrupti quaerat 
+                consequuntur consectetur sint rem pariatur sequi. 
+                Repudiandae odit quia sed quibusdam eius quis.
+            </p>
+            <div class="box-container">
+
+                <div class="box">
+
+                    <i class="fab fa-angular"></i>
+                    <h3>Lorem</h3>
+                        <p>
+                            Repudiandae odit quia sed quibusdam eius quis.
+                        </p>
+                </div>
+
+                <div class="box">
+
+                    <i class="fab fa-apple"></i>
+                    <h3>Lorem</h3>
+                        <p>
+                            Repudiandae odit quia sed quibusdam eius quis.
+                        </p>
+                </div>
+
+                <div class="box">
+
+                    <i class="fab fa-android"></i>
+                    <h3>Lorem</h3>
+                        <p>
+                            Repudiandae odit quia sed quibusdam eius quis.
+                        </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="content about">
+
+            <h2 class="title">Nosotros</h2>
+            <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                Placeat officiis numquam repudiandae ipsa vel nulla fuga 
+                ducimus. Omnis unde quia, dolor modi nobis iusto tenetur 
+                laudantium voluptates in ut sapiente.
+            </p>
+
+            <div class="btn-home">
+                <a href="#" class="btn">Saber mas</a>
+            </div>
+
+        </section>
+
+        <section class="content price">
+            <article class="contain">
+                <h2 class="title">Precio</h2>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
+                    Placeat officiis numquam repudiandae ipsa vel nulla fuga 
+                    ducimus. Omnis unde quia, dolor modi nobis iusto tenetur 
+                    laudantium voluptates in ut sapiente.
+                </p>
+                <div class="btn-price">
+                    <a href="#" class="btn">Saber mas</a>
+                </div>
+            </article>
+        </section>
+
+    </body>
+    <footer>
+        <section class="content contact">
+            <h2 class="title">Contacto</h2>
+            <p>1234567890</p>
+            <figure class="map">
+                <img src="../img/mapa.jpg" height="250px" width="100%" alt="mapa">
+            </figure>
+        </section>
+    </footer>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>      <!-- Incluimos el JS de Bootstrap desde node_modules -->
+</html>
